@@ -1,0 +1,283 @@
+.alldiv{
+    /* overflow-y: auto; */
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.all{
+    margin-bottom: 20px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    padding: 22px 0;
+}
+
+.search_zone {
+    margin: 0 auto;
+    width: 1190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_group {
+    display: flex;
+    align-items: center;
+}
+
+.input_group .input_div {
+    background-color: #fff;
+    padding: 2px 0 2px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.input_group input {
+    outline: none;
+    border: none;
+    width: 400px;
+    font-size: 12px;
+    height: 30px;
+}
+
+.input_group .btn {
+    display: flex;
+    /* justify-content: start; */
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    background-color: tomato;
+    height: 34px;
+    color: #fff;
+    font-weight: 350;
+    font-size: 12px;
+    padding: 4px 20px;
+}
+
+.search_zone .classify {
+    display: flex;
+    font-size: 12px;
+    width: 508px;
+    justify-content: space-between;
+    color: #6c6c6c;
+    padding: 4px 0;
+}
+
+.goods {
+    width: 100%;
+}
+
+.goods_box {
+    margin: 0 auto;
+    width: 1190px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.top_classify {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left_classify {
+    width: calc(1190px - 670px);
+    height: 280px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+}
+
+.center_img {
+    width: 610px;
+    height: 280px;
+    border-radius: 20px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.center_img img {
+    width: 100%;
+    height: 280px;
+    border-radius: 20px;
+    border-radius: 20px;
+}
+
+.left_classify_content {
+    display: flex;
+    align-items: center;
+    height: 62px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.left_classify_content:hover {
+    background-color: rgb(254, 238, 244);
+    color: #ff0036 !important;
+}
+
+.left_classify_left {
+    width: 45px;
+    height: 53px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.left_classify_right {
+    display: flex;
+}
+
+.left_classify_right span {
+    margin: 0 5px;
+}
+
+.other_classify {
+    width: 610px;
+    border-radius: 20px;
+    height: 280px;
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    border: 2px solid #ff0036;
+}
+
+.other_classify>div {
+    border-radius: 20px;
+}
+
+.left_classify_content2 {
+    display: flex;
+    align-items: center;
+    height: 62px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.goods_title {
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    width: 1150px;
+    /* width: 72px; */
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    font-size: 18px;
+    color: #333;
+}
+
+.box_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.goods_list_container .box {
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    border-radius: 12px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    height: 336px;
+    margin-bottom: 10px;
+    padding: 6px 6px 18px;
+    text-decoration: none;
+    width: 222px;
+    position: relative;
+}
+
+.goods_list_container .box:hover {
+    border: 1px solid #ff0035;
+}
+
+.goods_list_container .box.active {
+    margin-right: 15px;
+}
+
+
+
+.img_item {
+    border-radius: 8px;
+    height: 210px;
+    width: 210px;
+}
+
+.goods_name {
+    text-align: center;
+}
+
+.goods_name p {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.goods_price {
+    display: flex;
+    align-items: center;
+}
+
+.price-label {
+    align-self: flex-end;
+    color: #666;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    white-space: nowrap;
+}
+
+.pre_price {
+    color: #666;
+    text-decoration: line-through #ff0035;
+}
+
+.price {
+    color: #ff0035;
+    font-family: PingFangSC-Medium;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-left: 5px;
+    white-space: nowrap;
+}
+
+.box_btn_group {
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+    width: 90%;
+    margin-left: 2.3%;
+    display: flex;
+    justify-content: space-between;
+    bottom: 15px;
+}
+
+.box_btn_group>div {
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.car {
+    background-color: #eee;
+    border-radius: 15px;
+}
+
+.pay {
+    background-color: #c08490;
+    border-radius: 15px;
+}
