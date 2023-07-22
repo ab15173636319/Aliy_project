@@ -1,10 +1,10 @@
-.alldiv{
+.alldiv {
     /* overflow-y: auto; */
     height: 100vh;
     overflow-y: scroll;
 }
 
-.all{
+.all {
     margin-bottom: 20px;
 }
 
@@ -88,6 +88,11 @@
     width: calc(1190px - 670px);
     height: 280px;
     background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+}
+
+.el-carousel__container,
+.el-carousel__container * {
     border-radius: 20px;
 }
 

@@ -54,10 +54,14 @@ console.log(goods.goods);
                         </div>
                     </div>
                     <div class="center_img">
-                        <a href="#">
-                            <img src="https://gw.alicdn.com/imgextra/i4/O1CN01ZaP2Or1ZzsLJJb4Wg_!!6000000003266-0-tps-800-450.jpg"
-                                alt="">
-                        </a>
+
+                        <el-carousel trigger="click" height="280px">
+                            <el-carousel-item v-for="item in 2" :key="item">
+                                <a href="#">
+                                    <img src="https://gw.alicdn.com/imgextra/i4/O1CN01ZaP2Or1ZzsLJJb4Wg_!!6000000003266-0-tps-800-450.jpg" alt="">
+                                </a>
+                            </el-carousel-item>
+                        </el-carousel>
                         <div class="other_classify" v-if="obj.o_visible">
                             <div class="other_classify_item">
                                 <div class="left_classify_content2" v-for="c in cla.classify">
